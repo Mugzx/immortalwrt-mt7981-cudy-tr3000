@@ -12,6 +12,10 @@
 
 name: Update Checker
 
+permissions:
+ contents: write
+ actions: write
+
 env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
   REPO_BRANCH: openwrt-24.10-6.6
@@ -19,7 +23,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 0 1 * *
+    - cron: 0 0 2 * *
 
 jobs:
   check:
