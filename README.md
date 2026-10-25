@@ -55,9 +55,9 @@ echo 1 > /sys/class/gpio/modem_power/value
 
 ## 第三方软件包
 
-- [luci-app-nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)
 - [luci-theme-aurora](https://github.com/eamonxg/luci-theme-aurora)
 - [luci-app-aurora-config](https://github.com/eamonxg/luci-app-aurora-config)
+- [luci-app-nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)
 - luci-app-ttyd
 - luci-app-upnp
 - kmod-usb-net-cdc-ether
